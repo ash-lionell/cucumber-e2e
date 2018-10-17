@@ -1,0 +1,18 @@
+{
+  "name": "cucumber-e2e",
+  "version": "1.0.0",
+  "description": "Framework for E2E automation in Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node_modules\\.bin\\cucumber-js -r steps",
+    "run2": "node runner config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^5.0.2",
+    "fs-extra": "^7.0.0",
+    "glob": "^7.1.3"
+  }
+}
